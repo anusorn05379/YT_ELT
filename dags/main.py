@@ -67,6 +67,7 @@ with DAG(
     schedule=None,
 ) as dag_update:
 
+
     # Define tasks
     update_staging = staging_table()
     update_core = core_table()
